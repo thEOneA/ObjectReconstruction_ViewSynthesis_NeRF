@@ -14,11 +14,13 @@ This repository contains the code for object reconstruction and novel view synth
 1. Prepare the dataset and camera parameters.
 2. Run the training script:
 
-   python train.py --data_path /content/extracted_frames/ --params_path /content/sparse/0/
+```bash
+python train.py --data_path /content/extracted_frames/ --params_path /content/sparse/0/
 
 ### Test
 
 Use the trained model to render new views:
 
-   python train.py --data_path /content/extracted_frames/ --params_path /content/sparse/0/
+```bash
+python train.py --data_path /content/extracted_frames/ --params_path /content/sparse/0/
 
